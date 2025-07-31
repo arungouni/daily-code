@@ -15,3 +15,15 @@
 **Input:**
 ```bash
 java Main abc 12345
+```
+## 2. Alphabet Utility
+
+- **Package:** `string`
+- **Class:** `Alphabet`
+- **Entry Point:** `Main.java`
+
+### Example
+
+**Input:**
+```bash
+java Main HelloWorld
