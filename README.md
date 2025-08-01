@@ -21,6 +21,7 @@ java Main abc 12345
 - **Package:** `string`
 - **Class:** `Alphabet`
 - **Entry Point:** `Main.java`
+- **Methods:** `countVowl`,`countConsonants`
 
 ### Example
 
