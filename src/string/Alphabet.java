@@ -8,12 +8,16 @@ public class Alphabet {
                 vow++;
             }
         }
-        if (vow == 0) {
-            return "There are no vowels in the string.";
-        } else if (vow == 1) {
-            return "There is 1 vowel in the string.";
-        } else {
-            return "There are " + vow + " vowels in the string.";
+        return "Number of vowels: " + vow;
+    }
+
+    public String countConsonants(String s) {
+        int consonant = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if ("bcdfghjklmnpqrstvwxyz".indexOf(s.charAt(i)) > -1) {
+                consonant++;
+            }
         }
+        return "Number of consonants: " + consonant;
     }
 }
