@@ -19,7 +19,12 @@ public class AlphabetTest {
         assertEquals("Number of consonants: 3", result);
     }
 
-
+    @Test
+    public void testEmpty() {
+        Alphabet alphabet = new Alphabet();
+        String result = alphabet.countVowel("");
+        assertEquals("Number of vowels: 0", result);
+    }
     @Test
     public void testNumbers() {
         Alphabet alphabet = new Alphabet();
