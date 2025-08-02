@@ -25,7 +25,12 @@ public class AlphabetTest {
         String result = alphabet.countVowel("");
         assertEquals("Number of vowels: 0", result);
     }
-
+    @Test
+    public void testNumbers() {
+        Alphabet alphabet = new Alphabet();
+        String result = alphabet.countVowel("123456");
+        assertEquals("Number of vowels: 0", result);
+    }
 
     @Test
     public void testAlternateCharacters() {
